@@ -1,0 +1,14 @@
+
+<p>We played <%= @user%>!</p>
+<p>They played <%= @computer %>!</p>
+
+<% if @result == "It's a tie!" %>
+  <p>It's a tie!</p>
+<% elsif @result == "You win!" %>
+  <p>We won!</p>
+<% else %>
+  <p>We lost!</p>
+<% end %>
+
+
+<div><a href="/">Rules</a></div>
